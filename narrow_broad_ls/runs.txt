@@ -1,0 +1,8 @@
+The bash commands for running the simulations:
+
+python no_sided.py -r 500 -s 500 -l 300 -d 0.9 -c 0.99 -f 0.003 --left-ctcf 2300 --right-ctcf 2700 --trajectory-length 100000 --enforce-ctcf 5 > no_sided.txt
+
+python no_sided.py -r 2000 -s 500 -l 300 -d 0.9 -c 0.99 -f 0.003 --left-ctcf 2300 --right-ctcf 2700 --trajectory-length 100000 --enforce-ctcf 5 > no_sided.txt
+
+For the narrow+broad loading site
+python no_sided.py -r 100 --broad-loading-range 1000 -s 500 -l 800 -d 0.8 -c 0.99 -f 0.003 --left-ctcf 2300 --right-ctcf 2700 --trajectory-length 100000 --enforce-ctcf 4 > no_sided.txt

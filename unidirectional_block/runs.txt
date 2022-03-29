@@ -1,0 +1,9 @@
+The bash commands for running the simulations:
+
+python left_sided.py -r 100 -s 500 -l 800 -d 0.8 -c 0.99 -f 0.003 --left-ctcf 2300 --right-ctcf 2700 --trajectory-length 100000 --enforce-ctcf 5 > left_sided.txt
+
+python two_sided.py -r 100 -s 500 -l 800 -d 0.8 -c 0.99 -f 0.003 --left-ctcf 2300 --right-ctcf 2700 --trajectory-length 100000 --enforce-ctcf 5 > two_sided.txt
+
+python right_sided.py -r 100 -s 500 -l 800 -d 0.8 -c 0.99 -f 0.003 --left-ctcf 2300 --right-ctcf 2700 --trajectory-length 100000 --enforce-ctcf 5 > right_sided.txt
+
+python no_sided.py -r 100 -s 500 -l 800 -d 0.8 -c 0.99 -f 0.003 --left-ctcf 2300 --right-ctcf 2700 --trajectory-length 100000 --enforce-ctcf 5 > no_sided.txt

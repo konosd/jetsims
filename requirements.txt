@@ -1,0 +1,8 @@
+h5py
+hdf5
+json5
+openmm==7.4.2 
+polychrom==0.1.1
+matplotlib
+numpy
+pandas
